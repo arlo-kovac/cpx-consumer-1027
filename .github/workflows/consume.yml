@@ -1,0 +1,9 @@
+name: consume
+on:
+  push:
+jobs:
+  consume:
+    runs-on: ubuntu-latest
+    steps:
+      - name: consume the upstream action by TAG, as any ordinary repo would
+        uses: mrbenty-labs-c2ebe713/zz-c246-mq4-0903@cpx-rel-v1
